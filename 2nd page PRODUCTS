@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ares Bikes - Products</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body{
+  background:#EFE9E3;
+  margin:0;
+  font-family:'Roboto', sans-serif;
+}
+header{
+  background:#3B060A;
+  color:#FFFFFF;
+  padding:15px 35px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.logo{
+  display:flex;
+  align-items:center;
+}
+.logo img{
+  width:110px;
+  margin-right:15px;
+}
+.logo h1{
+  font-size:36px;
+  margin:0;
+  color:#E5BA41;
+}
+nav{
+  display:flex;
+  gap:40px;
+  margin-left:auto;
+  margin-right:auto;
+}
+nav a{
+  color:#FFFFFF;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:22px;
+}
+.cart{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.cart img{
+  width:35px;
+}
+.main{
+  padding:30px;
+}
+.category{
+  margin-bottom:40px;
+}
+.category h2{
+  font-size:28px;
+  color:#3B060A;
+  margin-bottom:15px;
+}
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+  gap:25px;
+}
+.product{
+  background:#DCD7C9;
+  padding:15px;
+  text-align:center;
+  border-radius:5px;
+}
+.product img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  border-radius:5px;
+  margin-bottom:10px;
+}
+.product p{
+  font-size:18px;
+  margin:5px 0;
+}
+.product .price{
+  font-weight:bold;
+  color:#3B060A;
+}
+footer{
+  text-align:center;
+  font-size:20px;
+  font-weight:bold;
+  padding:25px;
+  color:#3B060A;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-bicycle-logo-icon-silhouette-png-image_5683291.png">
+    <h1>ARES</h1>
+  </div>
+  <nav>
+    <a href="home.html">HOME</a>
+    <a href="products.html">PRODUCTS</a>
+    <a href="services.html">SERVICES</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="about.html">ABOUT</a>
+  </nav>
+  <div class="cart">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyte8HbuJ0wBNIOvohBufKp-Xz6TzHQHUxlg&s" alt="cart">
+    <span>Cart</span>
+  </div>
+</header>
+
+<div class="main">
+
+
+<div class="category">
+<h2>ROAD BIKES</h2>
+<div class="products">
+  <div class="product">
+    <img src="https://contents.mediadecathlon.com/p1619170/k$2470d4d473fbec18fcf697f154d42654/triban-rc-500-disc-road-bike-sora-turqoise-blue-triban-8542636.jpg?f=768x0&format=auto" alt="Triban RC 500">
+    <p>Triban RC 500</p>
+    <p class="price">₱24,990</p>
+  </div>
+  <div class="product">
+    <img src="https://contents.mediadecathlon.com/p2573567/k$e328e7263ea4b69fb864e836ef49e64d/rc-120-disc-cn-fr-triban-967129.jpg?f=768x0&format=auto" alt="RC 120">
+    <p>RC 120</p>
+    <p class="price">₱19,990</p>
+  </div>
+  <div class="product">
+    <img src="https://contents.mediadecathlon.com/p1675862/k$66518aef53df5cc6a00842f59c03296d/triban-rc-520-disc-road-bike-105-dark-blue-triban-8542655.jpg?f=768x0&format=auto" alt="Triban RC 520">
+    <p>Triban RC 520</p>
+    <p class="price">₱21,990</p>
+  </div>
+  <div class="product">
+    <img src="https://contents.mediadecathlon.com/p2071193/k$2152a928164301a8c155ccca2f4399d9/edr-af-105-cn-fr-van-rysel-8642228.jpg?f=768x0&format=auto" alt="EDR AF 105">
+    <p>EDR AF 105</p>
+    <p class="price">₱32,990</p>
+  </div>
+</div>
+</div>
+
+
+<div class="category">
+<h2>MOUNTAIN BIKES</h2>
+<div class="products">
+  <div class="product">
+    <img src="https://contents.mediadecathlon.com/p2662674/k$997463e092f8a6a4a1cf391c2d9a1672/mtb-expl50-light-blue-cnfr-rockrider-8941690.jpg?f=768x0&format=auto" alt="MTB EXPL50">
+    <p>MTB EXPL50</p>
+    <p class="price">₱16,990</p>
+  </div>
+  <div class="product">
+    <img src="https://contents.mediadecathlon.com/p2555795/sq/k$6173817268755c5b29fcb33a5536384d/mountain-bike-st-120-275-9-speed-rockrider-8735754.jpg?f=480x480&format=auto" alt="Mountain Bike ST 120">
+    <p>Mountain Bike ST 120</p>
+    <p class="price">₱15,990</p>
+  </div>
+</div>
+</div>
+
+
+<div class="category">
+<h2>GRAVEL BIKES</h2>
+<p>Out of Stock</p>
+</div>
+
+
+<div class="category">
+<h2>EBIKE</h2>
+<div class="products">
+  <div class="product">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqTFVKWpsnu3eJjD06YfoQDiV8tYmtllZngw&s" alt="Ebike">
+    <p>Ebike</p>
+    <p class="price">₱99,670</p>
+  </div>
+</div>
+</div>
+
+
+<div class="category">
+<h2>BIKE PARTS</h2>
+<div class="products">
+  <div class="product">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVeYUnAwgYAJDee9TqcjQdWjbY3uSdWsts_A&s" alt="Bike Parts">
+    <p>Bike Parts</p>
+    <p class="price">₱49,660</p>
+  </div>
+</div>
+</div>
+
+
+<div class="category">
+<h2>ACCESSORIES</h2>
+<div class="products">
+  <div class="product">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyT_p-eej8Gi3uJwm9wiyL1R0w_QRmhwF36Q&s" alt="Accessories">
+    <p>Accessories</p>
+    <p class="price">₱2,500</p>
+  </div>
+</div>
+</div>
+
+</div>
+
+<footer>
+© ARES 2026
+</footer>
+
+</body>
+</html>
